@@ -42,7 +42,7 @@ window.INVITATION = {
   },
 
   /* Background music (optional). Example: "images/shehnai.mp3" */
-  music: "",
+  music: "images/bg-song.mp3",
 
   /* ---------- 1. Opening cover (doors) ---------- */
   cover: {
