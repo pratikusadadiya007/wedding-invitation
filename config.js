@@ -70,15 +70,15 @@ window.INVITATION = {
     show: true,
     people: [
       {
-        title: "Chi. Pratik",
-        relation: "Son of",
+        title: "Pratik",
+        relation: "Beloved Son of",
         parents: ["Shri. Sureshbhai Bavchandbhai Usadadiya", "Smt. Dakshaben Sureshbhai Usadadiya"],
         grandRelation: "Grandson of",
         grandparents: ["Late Shri. Krishnalal Sharma", "Late Smt. Rukhmini Sharma"]
       },
       {
-        title: "Chi. Isha",
-        relation: "Daughter of",
+        title: "Isha",
+        relation: "Beloved Daughter of",
         parents: ["Shri. Shaileshbhai Babubhai Padsala", "Smt. Parulben Shaileshbhai Padsala"],
         grandRelation: "Granddaughter of",
         grandparents: ["Late Shri Hari Prasad Verma", "Late Smt. Shanti Devi Verma"]
@@ -126,7 +126,7 @@ window.INVITATION = {
       { name: "Mandap",   venue: "Rudraksh Party Plot, Surat.", mapLink: "https://maps.app.goo.gl/Qk6Yjz8geCUaD9Hb6", date: "Fri, 11 Dec 2026", time: "01:00 PM", image: "" },
       { name: "Haldi",     venue: "Rudraksh Party Plot, Surat.", mapLink: "https://maps.app.goo.gl/Qk6Yjz8geCUaD9Hb6", date: "Fri, 11 Dec 2026", time: "3:00 PM",  image: "images/haldi.png" },
       { name: "Sangeet",   venue: "Rudraksh Party Plot, Surat.", mapLink: "https://maps.app.goo.gl/Qk6Yjz8geCUaD9Hb6", date: "Fri, 11 Dec 2026", time: "8:00 PM",  image: "images/sangeet.png" },
-      { name: "Baarat Begin",    venue: "Mayur Motors, Canal road, Surat.", mapLink: "https://maps.app.goo.gl/5bQri465XPbAqst5A", date: "Sat, 12 Dec 2026", time: "3:00 PM",  image: "images/baarat.png" },
+      { name: "Baarat",    venue: "Mayur Motors, Canal road, Surat.", mapLink: "https://maps.app.goo.gl/5bQri465XPbAqst5A", date: "Sat, 12 Dec 2026", time: "3:00 PM",  image: "images/baarat.png" },
       { name: "Wedding",    venue: "Rudraksh Party Plot, Surat.", mapLink: "https://maps.app.goo.gl/Qk6Yjz8geCUaD9Hb6", date: "Sat, 12 Dec 2026", time: "6:30 PM",  image: "images/wedding.png" }
     ]
   },

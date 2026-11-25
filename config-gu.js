@@ -11,7 +11,7 @@
  * ============================================================
  */
 window.INVITATION = {
-  pageTitle: "અદિતિ & રાહુલ — લગ્ન નિમંત્રણ",
+  pageTitle: "પ્રતિક & ઈશા — શુભ લગ્ન આમંત્રણ",
   lang: "gu",
 
   languages: [
@@ -21,7 +21,7 @@ window.INVITATION = {
 
   footer: {
     show: true,
-    copyrightName: "અદિતિ & રાહુલ",
+    copyrightName: "પ્રતિક & ઈશા",
     poweredText: "Powered and secured by {brand}.",
     brand: "PRISHA"
   },
@@ -44,9 +44,9 @@ window.INVITATION = {
     show: true,
     logoImage: "",
     logoSymbol: "ૐ",
-    blessing: "શ્રી ગણેશાય નમઃ",
+    blessing: "॥ શ્રી ગણેશાય નમઃ ॥",
     message: "અમારા શુભ લગ્ન પ્રસંગે પધારી આશીર્વાદ આપવા આપને ભાવભર્યું આમંત્રણ...",
-    buttonText: "ખોલવા માટે ટેપ કરો",
+    buttonText: "કંકોત્રી ખોલો",
     elephantImage: "",
     flowerImage: ""
   },
@@ -54,9 +54,9 @@ window.INVITATION = {
   /* ---------- 2. વર-કન્યા (Hero) ---------- */
   hero: {
     show: true,
-    brideName: "અદિતિ",
-    groomName: "રાહુલ",
-    joiner: "&",
+    brideName: "પ્રતિક",
+    groomName: "ઈશા",
+    joiner: "સંગ",
     backgroundImage: ""
   },
 
@@ -65,16 +65,16 @@ window.INVITATION = {
     show: true,
     people: [
       {
-        title: "ચિ. રાહુલ શર્મા",
+        title: "ચિ. પ્રતિક",
         relation: "સુપુત્ર",
-        parents: ["શ્રી જીતેન્દ્ર શર્મા", "શ્રીમતી અંજના ભાવનાની"],
+        parents: ["શ્રી સુરેશભાઈ બાવચંદભાઈ ઉસદડીયા", "શ્રીમતી દક્ષાબેન સુરેશભાઈ ઉસદડીયા"],
         grandRelation: "સુપૌત્ર",
         grandparents: ["સ્વ. શ્રી કૃષ્ણલાલ શર્મા", "સ્વ. શ્રીમતી રુક્મિણી શર્મા"]
       },
       {
-        title: "ચિ. અદિતિ વર્મા",
+        title: "ચિ. ઈશા",
         relation: "સુપુત્રી",
-        parents: ["શ્રી રાજેશકુમાર વર્મા", "શ્રીમતી મીરા વર્મા"],
+        parents: ["શ્રી શૈલેષભાઈ બાબુભાઈ પડસાળા", "શ્રીમતી પારુલબેન શૈલેષભાઈ પડસાળા"],
         grandRelation: "સુપૌત્રી",
         grandparents: ["સ્વ. શ્રી હરિપ્રસાદ વર્મા", "સ્વ. શ્રીમતી શાંતિદેવી વર્મા"]
       }
@@ -85,11 +85,11 @@ window.INVITATION = {
   saveTheDate: {
     show: true,
     labels: { day: "તારીખ", month: "મહિનો", year: "વર્ષ" },
-    day: "૧૧",
-    month: "ઓક્ટો",
+    day: "૧૨",
+    month: "ડિસેમ્બર",
     year: "૨૦૨૬",
     buttonText: "તારીખ જાણો",
-    afterRevealText: "આ તારીખ યાદ રાખજો",
+    afterRevealText: "આ શુભ દિવસ યાદ રાખજો",
     // Gujarati digits 0–9, used while the reel spins
     digits: "૦૧૨૩૪૫૬૭૮૯",
     monthNames: ["જાન્યુ", "ફેબ્રુ", "માર્ચ", "એપ્રિલ", "મે", "જૂન", "જુલાઈ", "ઓગસ્ટ", "સપ્ટે", "ઓક્ટો", "નવે", "ડિસે"]
@@ -105,36 +105,70 @@ window.INVITATION = {
   story: {
     show: true,
     frames: [
-      { type: "photo", image: "", caption: "#શરૂઆત" },
-      { type: "text", text: "કેટલીક વાર્તાઓ મોટા વચનોથી શરૂ થાય છે. અમારી વાર્તા એક સાદી વાતચીતથી શરૂ થઈ." },
-      { type: "photo", image: "", caption: "#સફર" },
-      { type: "text", text: "મિત્રતા ધીમે ધીમે પ્રેમમાં બદલાઈ, અને સમજાયું કે જીવનની શ્રેષ્ઠ પળો એ જ છે જે અમે સાથે વિતાવી." },
-      { type: "photo", image: "", caption: "#નાનીખુશીઓ" }
+      { type: "photo", image: "images/1.png", caption: "#શરૂઆત" },
+      { type: "text", text: "કેટલીક પ્રેમકથાઓ ભવ્ય પ્રસંગોથી શરૂ થાય છે, પરંતુ અમારી પ્રેમગાથાની શરૂઆત એક નાનકડી વાતચીતથી થઈ હતી." },
+      { type: "photo", image: "images/2.jpg", caption: "#સફર" },
+      { type: "text", text: "મિત્રતા ધીમે ધીમે પ્રેમમાં પરિણમી અને સમજાયું કે જીવનની સૌથી સુંદર ક્ષણો એ જ છે, જે અમે એકબીજા સાથે વિતાવી છે." },
+      { type: "photo", image: "images/3.jpg", caption: "#નાનકડીમીઠીયાદો" }
     ]
   },
 
-  /* ---------- 7. શુભ પ્રસંગો (Ceremonies) ---------- */
+  /* ---------- 7. મંગલ પ્રસંગો (Ceremonies) ---------- */
   ceremonies: {
     show: true,
-    heading: "શુભ પ્રસંગો",
+    heading: "મંગલ પ્રસંગો",
     events: [
-      { name: "મહેંદી",  venue: "શર્મા નિવાસ, જયપુર", mapLink: "https://maps.google.com/?q=Jaipur", date: "શનિ, ૧૦ ઓક્ટો ૨૦૨૬", time: "સવારે ૧૧:૦૦", image: "" },
-      { name: "પીઠી",    venue: "શર્મા નિવાસ, જયપુર", mapLink: "https://maps.google.com/?q=Jaipur", date: "શનિ, ૧૦ ઓક્ટો ૨૦૨૬", time: "સાંજે ૪:૦૦",  image: "" },
-      { name: "સંગીત સંધ્યા", venue: "શર્મા નિવાસ, જયપુર", mapLink: "https://maps.google.com/?q=Jaipur", date: "શનિ, ૧૦ ઓક્ટો ૨૦૨૬", time: "સાંજે ૭:૩૦",  image: "" },
-      { name: "હસ્તમેળાપ", venue: "શર્મા નિવાસ, જયપુર", mapLink: "https://maps.google.com/?q=Jaipur", date: "રવિ, ૧૧ ઓક્ટો ૨૦૨૬", time: "રાત્રે ૮:૦૦",  image: "" },
-      { name: "સ્વાગત સમારંભ", venue: "શર્મા નિવાસ, જયપુર", mapLink: "https://maps.google.com/?q=Jaipur", date: "સોમ, ૧૨ ઓક્ટો ૨૦૨૬", time: "રાત્રે ૮:૦૦",  image: "" }
+      {
+        name: "મંડપ મુહૂર્ત",
+        venue: "રુદ્રાક્ષ પાર્ટી પ્લોટ, સુરત.",
+        mapLink: "https://maps.app.goo.gl/Qk6Yjz8geCUaD9Hb6",
+        date: "શુક્રવાર, ૧૧ ડિસેમ્બર ૨૦૨૬",
+        time: "બપોરે ૧:૦૦ કલાકે",
+        image: ""
+      },
+      {
+        name: "પીઠી પ્રસંગ",
+        venue: "રુદ્રાક્ષ પાર્ટી પ્લોટ, સુરત.",
+        mapLink: "https://maps.app.goo.gl/Qk6Yjz8geCUaD9Hb6",
+        date: "શુક્રવાર, ૧૧ ડિસેમ્બર ૨૦૨૬",
+        time: "બપોરે ૩:૦૦ કલાકે",
+        image: "images/haldi.png"
+      },
+      {
+        name: "સંગીત સંધ્યા",
+        venue: "રુદ્રાક્ષ પાર્ટી પ્લોટ, સુરત.",
+        mapLink: "https://maps.app.goo.gl/Qk6Yjz8geCUaD9Hb6",
+        date: "શુક્રવાર, ૧૧ ડિસેમ્બર ૨૦૨૬",
+        time: "રાત્રે ૮:૦૦ કલાકે",
+        image: "images/sangeet.png"
+      },
+      {
+        name: "જાન પ્રસ્થાન",
+        venue: "મયુર મોટર્સ, કેનાલ રોડ, સુરત.",
+        mapLink: "https://maps.app.goo.gl/5bQri465XPbAqst5A",
+        date: "શનિવાર, ૧૨ ડિસેમ્બર ૨૦૨૬",
+        time: "બપોરે ૩:૦૦ કલાકે",
+        image: "images/baarat.png"
+      },
+      {
+        name: "હસ્તમેળાપ",
+        venue: "રુદ્રાક્ષ પાર્ટી પ્લોટ, સુરત.",
+        mapLink: "https://maps.app.goo.gl/Qk6Yjz8geCUaD9Hb6",
+        date: "શનિવાર, ૧૨ ડિસેમ્બર ૨૦૨૬",
+        time: "સાંજે ૬:૩૦ કલાકે",
+        image: "images/wedding.png"
+      }
     ]
   },
 
   /* ---------- 8. સ્નેહાધીન (Best compliments) ---------- */
   compliments: {
     show: true,
-    heading: "સ્નેહાધીન:",
+    heading: "સ્નેહાધીન અને દર્શનાભિલાષી:",
     names: [
-      "શ્રી સુરેશ શર્મા અને પરિવાર (કાકા-કાકી)",
-      "શ્રી મનોજ શર્મા અને પરિવાર (મોટા બાપુ-મોટા બા)",
-      "શ્રીમતી આશા ગુપ્તા અને પરિવાર (ફોઈ)",
-      "શ્રી રાજેન્દ્ર મહેતા અને પરિવાર (મામા-મામી)"
+      "શ્રી સુરેશભાઈ બાવચંદભાઈ ઉસદડીયા તથા પરિવાર",
+      "મહેશ અને નિમેષ વેકરિયા તથા પરિવાર (ભાણેજ)",
+      "શ્રી સુરેશભાઈ ચોડવડીયા તથા પરિવાર (મામા-મામી)"
     ]
   },
 
@@ -150,26 +184,27 @@ window.INVITATION = {
   /* ---------- 10. લિંક્સ (Quick links) ---------- */
   links: {
     show: true,
-    instagramUrl: "https://instagram.com/",
+    instagramUrl: "https://www.instagram.com/itsallaboutprisha/",
     instagramPopup: {
       title: "દંપતીને ફોલો કરો",
       message: "શું આપ દંપતીનું ઇન્સ્ટાગ્રામ પેજ ખોલવા માંગો છો?",
       confirmText: "ઇન્સ્ટાગ્રામ ખોલો",
       cancelText: "હમણાં નહીં"
     },
-    mapUrl: "https://maps.google.com/?q=Jaipur",
-    calendar: {
-      title: "અદિતિ & રાહુલ — લગ્ન",
-      start: "2026-10-11T20:00:00",   // keep English digits here: YYYY-MM-DDTHH:MM:SS
-      end: "2026-10-11T23:59:00",
-      location: "શર્મા નિવાસ, જયપુર"
-    }
+    mapUrl: "https://maps.app.goo.gl/Qk6Yjz8geCUaD9Hb6",
+    // Calendar event
+    // calendar: {
+    //   title: "પ્રતીક સંગ ઈશા — શુભ લગ્ન",
+    //   start: "2026-12-12T19:00:00",
+    //   end: "2026-12-12T23:59:00",
+    //   location: "રુદ્રાક્ષ પાર્ટી પ્લોટ, સુરત."
+    // }
   },
 
   /* ---------- 11. સમાપન (Closing) ---------- */
   closing: {
     show: true,
-    message: "આપની હાજરી અમારા માટે અમૂલ્ય છે",
+    message: "આપની પાવન ઉપસ્થિતિ અને આશીર્વાદ જ અમારા માટે અમૂલ્ય ભેટ છે.",
     backgroundImage: ""
   }
 };

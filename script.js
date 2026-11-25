@@ -655,7 +655,7 @@
     renderCeremonies() + renderClosingScrolls() 
     + renderLinks() + renderClosing() + renderFooter();
   renderCover();
-  // renderLangSwitch();
+  renderLangSwitch();
   setupMusic();
   setupScrolls();
   setupDateReveal();
